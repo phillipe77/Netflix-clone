@@ -1,0 +1,47 @@
+.MV {
+    margin: 5px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-top: 0px;
+
+}
+.MV h2 {
+    margin: 0px 0px 0px 30px;
+    font-size: 30px;
+    
+    
+
+    
+    
+}
+.MV--listarea{
+    overflow-x: hidden;
+    padding-left: 0px;
+    
+}
+.MV--item{
+    display: inline-block;
+    width:  223px;
+    cursor: pointer;
+    
+
+}
+.MV--list {
+    width: 99999px;
+    padding-left: 20px;
+    padding-top: 0px;
+    color: #999;
+   
+    
+ 
+}
+.MV--item img{
+    width: 100%;
+    transform: scale(0.9);
+    transition: all ease 0.2s;
+  
+}
+.MV--item img:hover {
+    transform: scale(1);
+}

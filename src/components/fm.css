@@ -1,0 +1,124 @@
+.fm{
+    height:100vh;
+}
+
+.vertical--fade{
+    width: inherit;
+    height: inherit;
+    background: linear-gradient(to top, #111 15%, transparent 85%);
+}
+
+.horizontal--fade{
+    width: inherit;
+    height: inherit;
+    background: linear-gradient(to right, #111 20%, transparent 80%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 40px;
+    padding-bottom: 250px;
+    padding-top: 0px;
+    
+}
+
+.title{
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 0px;
+
+}
+
+.info{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.score{
+    display: inline-block;
+    color: #46d369;
+    margin-right: 15px;
+}
+.ano{
+    display: inline-block;
+    margin-right: 15px;
+}
+.seasons{
+    display: inline-block;
+    margin-right: 15px;
+
+
+}
+.description{
+    margin-top: 15px;
+    font-size: 20px;
+    color: #999;
+    max-width: 35%;
+}
+.buttons{
+    margin-top: 15px;
+
+
+}
+
+.playBtn,
+.addBtn{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 12px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 10px;
+    opacity: 1;
+    transition: all ease 0.2s;
+    
+
+    
+
+}
+.playBtn:hover,
+.addBtn:hover{
+    opacity: 0.7;
+
+}
+
+.playBtn{
+    background-color: #fff;
+    color: #000;
+
+}
+.addBtn{
+    background-color: #333;
+    color: #fff;
+}
+.genres{
+    margin-top: 15px;
+    font-size: 18px;
+    color: #999;
+}
+@media(max-width: 720px){
+    .fm{
+        height: 70vh;
+    }
+
+    .title{
+        font-size: 30px;
+    }
+
+    .info{
+        font-size: 15px;
+    }
+
+    .overview{
+        max-width: 100%;
+        margin-right: 30px;
+    }
+
+    .buttom .playBtn, .addBtn{
+        font-size: 16px;
+    }
+    
+    .genres{
+        font-size: 15px;
+    }
+}
