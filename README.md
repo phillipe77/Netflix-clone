@@ -1,7 +1,7 @@
 <h1>Clone da Netflix</h1>
 
 <p align="center">
-  <img alt="Fast-Track" src="https://d585tldpucybw.cloudfront.net/sfimages/default-source/teststudio/telerik_teststudio_trialsection_illustration.png?sfvrsn=739b5781_1"/>
+  <img alt="Fast-Track" src="https://sm.ign.com/ign_br/screenshot/default/493f5bba-81a4-11e9-bf79-066b49664af6-cm-1440w_7jts.jpg"/>
 </p>
 
 
