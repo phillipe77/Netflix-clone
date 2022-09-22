@@ -1,70 +1,89 @@
-# Getting Started with Create React App
+<h1>Clone da Netflix</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <img alt="Fast-Track" src="https://d585tldpucybw.cloudfront.net/sfimages/default-source/teststudio/telerik_teststudio_trialsection_illustration.png?sfvrsn=739b5781_1"/>
+</p>
 
-## Available Scripts
 
-In the project directory, you can run:
+> Status do Projeto: :heavy_check_mark: (Concluído)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Descrição do projeto
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<p align="justify">
+Projeto de desenvolvimento do clone da Netflix utilizando React
+</p>
 
-### `npm test`
+## Pré-requisitos
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+:warning: [NPM](https://docs.npmjs.com/cli/v6/commands/npm-install)
 
-### `npm run build`
+:warning: [Node](https://nodejs.org/en/download/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Como rodar a aplicação :arrow_forward:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+No terminal, clone o projeto:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+git clone <https://github.com/phillipe77/Netflix-clone>
+```
+No diretório do projeto, você pode executar:
 
-### `npm run eject`
+```
+npm start
+```
+Executa o aplicativo no modo de desenvolvimento.
+Abra http://localhost:3000 para visualizá-lo em seu navegador.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+A página será recarregada quando você fizer alterações.
+Você também pode ver erros de lint no console.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+npm test
+```
+Inicia o executor de teste no modo de relógio interativo.
+Consulte a seção sobre como executar testes para obter mais informações.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```
+npm run build
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Compila o aplicativo para produção na pasta de build.
+Ele agrupa corretamente o React no modo de produção e otimiza a build para o melhor desempenho.
 
-## Learn More
+A compilação é minificada e os nomes dos arquivos incluem os hashes.
+Seu aplicativo está pronto para ser implantado!
+```
+npm run eject
+```
+Nota: esta é uma operação unidirecional. Depois de ejetar, você não pode voltar!
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Se você não estiver satisfeito com a ferramenta de compilação e as opções de configuração, poderá ejetar a qualquer momento. Este comando removerá a dependência de compilação única do seu projeto.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Em vez disso, ele copiará todos os arquivos de configuração e as dependências transitivas (webpack, Babel, ESLint, etc) diretamente em seu projeto para que você tenha controle total sobre eles. Todos os comandos, exceto ejetar, ainda funcionarão, mas apontarão para os scripts copiados para que você possa ajustá-los. Neste ponto você está por conta própria.
 
-### Code Splitting
+Você não precisa usar ejetar. O conjunto de recursos com curadoria é adequado para implantações pequenas e médias, e você não deve se sentir obrigado a usar esse recurso. No entanto, entendemos que essa ferramenta não seria útil se você não pudesse personalizá-la quando estiver pronto para isso.
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```
 
-### Analyzing the Bundle Size
+## Linguagens utilizadas :books:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- [Javascript](https://pt-br.reactjs.org/docs/create-a-new-react-app.html)
 
-### Making a Progressive Web App
+## Desenvolvedores/Contribuidores :octocat:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+| [<img src="https://avatars.githubusercontent.com/u/63056300?v=4" width=115><br><sub>Phillipe Linhares</sub>](https://github.com/phillipe77)
+| :---: |
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Como contribuir para o projeto 💪
 
-### Deployment
+1. Faça um **fork** do projeto.
+2. Crie uma nova branch com as suas alterações: `git checkout -b my-feature`
+3. Salve as alterações e crie uma mensagem de commit contando o que você fez: `git commit -m "feature: My new feature"`
+4. Envie as suas alterações: `git push origin my-feature`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Licença
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Copyright :copyright: 2022 - Netflix Clone
